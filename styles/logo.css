@@ -19,6 +19,12 @@ color: #4E47FF;
     padding: 12px 36px;
     border-radius: 10px;
 }
+/* header section style */
+header{
+    text-align: center;
+    background-image: url(../Assets/Hero-bg.png);
+    min-height: 698px;
+}
 
 /* nav section style start */
 
@@ -28,6 +34,7 @@ nav{
     max-width: 1140px;
     margin: 0 auto;
     align-items: center;
+    margin-bottom: 158px ;
 }
 .logo{
 font-size: 34px;
@@ -36,4 +43,17 @@ font-weight: 800;
 nav button{
     max-width: 132px;
     max-height: 48px;
+}
+.banner{
+    min-height: 237px;
+    min-width: 905px;
+}
+.banner h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    margin: 0;
+}
+.banner button{
+    margin-top: 37px;
 }
