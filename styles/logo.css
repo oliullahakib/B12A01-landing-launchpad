@@ -1,0 +1,39 @@
+/* share styles */
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.primary-text-color{
+color: #4E47FF;
+}
+.primary-btn{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 10px;
+}
+
+/* nav section style start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+}
+.logo{
+font-size: 34px;
+font-weight: 800;
+}
+nav button{
+    max-width: 132px;
+    max-height: 48px;
+}
