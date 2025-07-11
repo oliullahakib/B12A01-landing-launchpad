@@ -32,6 +32,17 @@ color: #4E47FF;
 .secondary-bg{
     background-color: #F5F8FF;
 }
+/* button style section  */
+button:hover{
+    background-color: rgb(233, 240, 30);
+    color: black;
+    cursor: pointer;
+}
+.submit-btn:hover{
+        background-color: rgb(233, 240, 30);
+    color: black;
+    cursor: pointer;
+}
 /* header section style */
 header{
     text-align: center;
