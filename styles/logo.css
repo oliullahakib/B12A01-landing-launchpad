@@ -177,3 +177,36 @@ margin: 0;
     height:62px ;
 }
 
+/* footer section style start  */
+footer{
+    text-align: center;
+    margin-top: 116px;
+    height: 428px;
+    background-color: white;
+}
+.footer-text-container{
+   padding-top: 103px;
+}
+.box{
+    height: 221px;
+    width: 531px;
+    margin: 0 auto;
+}
+.web-name{
+    font-size: 100px;
+    font-weight:900 ;
+    margin: 0;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-nav li{
+    list-style: none;
+    margin-right: 48px;
+}
+.footer-nav ul li a{
+   text-decoration: none;
+   color: #8987A1;
+}
+
