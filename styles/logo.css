@@ -29,6 +29,9 @@ color: #4E47FF;
     font-weight: bold;
     color:rgba(37, 36, 50, 1);
 }
+.secondary-bg{
+    background-color: #F5F8FF;
+}
 /* header section style */
 header{
     text-align: center;
@@ -113,7 +116,9 @@ margin-right: 220;
 padding-top: 50px;
 padding-bottom: 40px;
 } 
+
 /*Note: my font size 38 is not maching with fingma */
+
 .user-heading h1{
 margin: 0;
 }
@@ -132,3 +137,43 @@ margin: 0;
     margin: 0;
     margin-bottom: 50px;
 }
+
+/* get-in-touch section style start  */
+.get-in-touch{
+    min-height: 632px;
+    display: flex;
+    gap: 115px;
+    align-items: center;
+}
+.get-in-touch-left-column{
+    width: 528px;
+    max-height: 232px;
+    color: black;
+}
+.get-in-touch-left-column h1{
+    font-size: 97px;
+    font-weight: bold;
+    color: black;
+}
+.get-in-touch-right-column{
+    max-width: 497px;
+    max-height: 490px;
+}
+.get-in-touch-right-column input[type="email"], #name ,textarea{
+    min-height: 70px;
+    width: 465px;
+    margin-bottom: 19px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px 0 20px 32px;
+    border: none;
+}
+ label{
+    font-size: 18px;
+}
+.get-in-touch-right-column input[type="submit"]{
+    width: 100%;
+    height:62px ;
+}
+
