@@ -20,6 +20,15 @@ color: #4E47FF;
     border-radius: 10px;
     font-weight: bold;
 }
+.subtitle{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.section-heading{
+    font-size: 38px;
+    font-weight: bold;
+    color:rgba(37, 36, 50, 1);
+}
 /* header section style */
 header{
     text-align: center;
@@ -65,6 +74,9 @@ main{
     margin-top: 116px;
     color: #252432;
 }
+main section{
+    margin-top: 116px;
+}
 /* Action section style start */
 .action{
     display: flex;
@@ -88,4 +100,35 @@ margin-right: 220;
     border-radius: 48px;
     max-height: 328px;
 
+}
+
+/* productive-user user section style start */
+.productive-user{
+    max-height: 306px;
+    background-color: #4d47ff4a;
+    border-radius: 24px;
+    text-align: center;
+}
+.user-heading{
+padding-top: 50px;
+padding-bottom: 40px;
+} 
+/*Note: my font size 38 is not maching with fingma */
+.user-heading h1{
+margin: 0;
+}
+.user-data-container{
+    display: flex;
+    gap: 167px;
+    justify-content: center;
+}
+.data-value{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0;
+}
+.user-data p{
+    margin: 0;
+    margin-bottom: 50px;
 }
