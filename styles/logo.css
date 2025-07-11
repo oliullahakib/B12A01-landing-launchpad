@@ -222,6 +222,19 @@ margin: 0;
     border-radius: 9999px;
 }
 
+/* focus section style  */
+.focus{
+    text-align: center;
+    background-color: #fff;
+}
+.uper-part{
+    padding-top: 71px;
+}
+.focus img{
+    margin-top: 20px;
+    border-radius: 48px;
+    margin-bottom: 71px;
+}
 /* footer section style start  */
 footer{
     text-align: center;
